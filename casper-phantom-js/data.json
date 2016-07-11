@@ -1,0 +1,4 @@
+{
+    "urls": ["http://www.google.com", "http://bing.com"],
+    "viewportSizes": [480,720,1200]
+}

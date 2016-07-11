@@ -1,0 +1,18 @@
+{
+  "name": "casper-phantom-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/casperjs test ./test/main.js || true",
+    "start": "./node_modules/.bin/casperjs main.js || true",
+    "start:link": "./node_modules/.bin/casperjs main-link.js || true",
+    "start:screenshot": "./node_modules/.bin/casperjs main-screenshot.js || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.2",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
